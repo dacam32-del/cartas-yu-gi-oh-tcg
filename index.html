@@ -1,0 +1,57 @@
+<!DOCTYPE html><html lang="es"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Cartas Yu-Gi-Oh! TCG – Catálogo</title>
+<style>
+:root{--bg:#0d0b1a;--card:#1a1630;--gold:#e8b84a;--txt:#eee;--mut:#a59fc0}
+*{box-sizing:border-box}body{margin:0;font-family:system-ui,sans-serif;background:radial-gradient(circle at top,#2a1f55,var(--bg) 60%);color:var(--txt);min-height:100vh}
+header{position:sticky;top:0;z-index:5;background:#0d0b1aee;backdrop-filter:blur(6px);border-bottom:1px solid #e8b84a55;padding:12px 16px;display:flex;align-items:center;justify-content:space-between;gap:10px}
+h1{margin:0;font-size:1.2rem;color:var(--gold);letter-spacing:.5px}h1 small{display:block;color:var(--mut);font-size:.7rem;font-weight:400}
+.wa{background:#25d366;color:#fff;text-decoration:none;padding:8px 14px;border-radius:999px;font-weight:600;font-size:.9rem;white-space:nowrap}
+.bar{display:flex;flex-wrap:wrap;gap:8px;padding:12px 16px}.bar input,.bar select{background:var(--card);color:var(--txt);border:1px solid #3a3360;border-radius:8px;padding:8px;font-size:.9rem;flex:1 1 140px}
+.note{margin:0 16px;color:var(--mut);font-size:.8rem}#count{margin:6px 16px;color:var(--mut);font-size:.85rem}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(160px,1fr));gap:14px;padding:8px 16px 40px}
+.c{background:var(--card);border:1px solid #3a3360;border-radius:12px;overflow:hidden;cursor:pointer;transition:.2s;display:flex;flex-direction:column}
+.c:hover{transform:translateY(-3px);border-color:var(--gold)}.c img{width:100%;aspect-ratio:3/4.3;object-fit:cover;background:#000}
+.i{padding:8px 10px;display:flex;flex-direction:column;gap:3px;flex:1}.n{font-weight:600;font-size:.9rem}.m{color:var(--mut);font-size:.75rem}
+.p{color:var(--gold);font-weight:700;margin-top:auto;font-size:1.05rem}.tag{display:inline-block;font-size:.65rem;padding:2px 6px;border-radius:4px;background:#3a3360;margin-right:3px}
+.tag.r{background:linear-gradient(90deg,#b8862b,#f5d77a);color:#000}
+.buy{display:block;text-align:center;background:#25d366;color:#fff;text-decoration:none;padding:6px;border-radius:6px;font-size:.8rem;margin-top:6px;font-weight:600}
+#modal{position:fixed;inset:0;background:#000c;display:none;align-items:center;justify-content:center;padding:16px;z-index:9}
+#modal.on{display:flex}.mb{background:var(--card);border:1px solid var(--gold);border-radius:14px;max-width:760px;width:100%;max-height:92vh;overflow:auto;display:grid;grid-template-columns:1fr 1.2fr;gap:16px;padding:16px;position:relative}
+.mb img{width:100%;border-radius:8px}.mb table{width:100%;font-size:.85rem;border-collapse:collapse}.mb td{padding:4px;border-bottom:1px solid #3a3360;vertical-align:top}.mb td:first-child{color:var(--mut);width:40%}
+.x{position:absolute;top:6px;right:10px;background:none;border:0;color:#fff;font-size:1.6rem;cursor:pointer}
+@media(max-width:600px){.mb{grid-template-columns:1fr}.grid{grid-template-columns:repeat(2,1fr);gap:10px}h1{font-size:1rem}}
+footer{text-align:center;color:var(--mut);font-size:.75rem;padding:20px}
+</style></head><body>
+<header><h1>🃏 Cartas Yu-Gi-Oh! TCG<small>Catálogo de cartas sueltas · Chile</small></h1>
+<a class="wa" target="_blank" href="https://wa.me/56956592453?text=Hola!%20Vi%20tu%20cat%C3%A1logo%20de%20cartas%20Yu-Gi-Oh!">💬 WhatsApp</a></header>
+<div class="bar">
+<input id="q" placeholder="🔎 Buscar por nombre o código…">
+<select id="fr"><option value="">Todas las rarezas</option></select>
+<select id="fs"><option value="">Todos los sets</option></select>
+<select id="fy"><option value="">Todos los años</option></select>
+<select id="ft"><option value="">Todos los tipos</option><option>Monstruo</option><option>Magia</option><option>Trampa</option></select>
+<select id="so"><option value="pd">Precio: mayor a menor</option><option value="pa">Precio: menor a mayor</option><option value="n">Nombre A-Z</option><option value="y">Año (reciente)</option><option value="s">Código de set</option></select>
+</div>
+<p class="note">⚠️ Precios referenciales en CLP, basados en el mercado (Chile o internacional convertido). Estado estimado por foto. Consulta disponibilidad por WhatsApp.</p>
+<div id="count"></div><div class="grid" id="g"></div>
+<div id="modal"><div class="mb" id="mb"></div></div>
+<footer>Cartas Yu-Gi-Oh! TCG · Yu-Gi-Oh! es marca registrada de Konami.</footer>
+<script>
+const WA='56956592453',$=s=>document.querySelector(s);let C=[];
+const clp=n=>n==null?'Consultar':'$'+Number(n).toLocaleString('es-CL');
+const kind=t=>/Monstruo/i.test(t)?'Monstruo':/Trampa/i.test(t)?'Trampa':'Magia';
+const wa=c=>`https://wa.me/${WA}?text=${encodeURIComponent(`Hola! Me interesa la carta "${c.name_es}" (${c.set_code}, ${c.rarity}, ${c.condition}) a ${clp(c.price_clp)}. ¿Está disponible?`)}`;
+const esc=s=>String(s??'').replace(/[&<>"]/g,m=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[m]));
+function fill(id,vals){const s=$(id);[...new Set(vals)].sort().forEach(v=>s.add(new Option(v,v)))}
+fetch('data/cards.json').then(r=>r.json()).then(d=>{C=d.filter(c=>c.sold!==true);fill('#fr',C.map(c=>c.rarity));fill('#fs',C.map(c=>c.set_name));fill('#fy',C.map(c=>String(c.year)));render()});
+function render(){const q=$('#q').value.toLowerCase(),r=$('#fr').value,s=$('#fs').value,y=$('#fy').value,t=$('#ft').value,o=$('#so').value;
+let L=C.filter(c=>(!q||(c.name_es+' '+c.name_en+' '+c.set_code).toLowerCase().includes(q))&&(!r||c.rarity==r)&&(!s||c.set_name==s)&&(!y||String(c.year)==y)&&(!t||kind(c.type)==t));
+const f={pd:(a,b)=>(b.price_clp||0)-(a.price_clp||0),pa:(a,b)=>(a.price_clp||0)-(b.price_clp||0),n:(a,b)=>a.name_es.localeCompare(b.name_es),y:(a,b)=>b.year-a.year,s:(a,b)=>a.set_code.localeCompare(b.set_code)}[o];L.sort(f);
+$('#count').textContent=L.length+' cartas';
+$('#g').innerHTML=L.map(c=>`<div class="c" data-id="${esc(c.id)}"><img loading="lazy" src="${esc(c.image)}" alt="${esc(c.name_es)}"><div class="i"><div class="n">${esc(c.name_es)}</div><div class="m">${esc(c.set_code)} · ${esc(c.year)}</div><div><span class="tag ${c.rarity!='Common'?'r':''}">${esc(c.rarity)}</span><span class="tag">${esc(c.condition.split(' ')[0])}</span></div><div class="p">${clp(c.price_clp)}</div><a class="buy" target="_blank" href="${wa(c)}" onclick="event.stopPropagation()">Comprar por WhatsApp</a></div></div>`).join('')}
+['#q','#fr','#fs','#fy','#ft','#so'].forEach(i=>$(i).addEventListener('input',render));
+$('#g').addEventListener('click',e=>{const el=e.target.closest('.c');if(!el)return;const c=C.find(x=>x.id==el.dataset.id);
+const row=(k,v)=>v?`<tr><td>${k}</td><td>${esc(v)}</td></tr>`:'';
+$('#mb').innerHTML=`<button class="x" onclick="$('#modal').classList.remove('on')">×</button><img src="${esc(c.image)}" alt=""><div><h2 style="margin:0 0 4px;color:var(--gold)">${esc(c.name_es)}</h2><div class="m">${esc(c.name_en)}</div><div class="p" style="font-size:1.5rem;margin:8px 0">${clp(c.price_clp)}</div><table>${row('Código',c.set_code)}${row('Set',c.set_name)}${row('Año',c.year)}${row('Idioma',c.language)}${row('Edición',c.edition)}${row('Rareza',c.rarity)}${row('Tipo',c.type)}${row('Estado',c.condition)}${row('Notas',c.notes)}</table><p class="m">Precio referencial · <a style="color:var(--gold)" target="_blank" href="${esc(c.price_url)}">fuente</a></p><a class="buy" target="_blank" href="${wa(c)}">💬 Comprar por WhatsApp</a></div>`;$('#modal').classList.add('on')});
+$('#modal').addEventListener('click',e=>{if(e.target.id=='modal')$('#modal').classList.remove('on')});
+</script></body></html>
