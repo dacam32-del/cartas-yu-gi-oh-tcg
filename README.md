@@ -18,7 +18,7 @@ Catálogo web estático (GitHub Pages) de mis cartas Yu-Gi-Oh! con tasación, fi
  "price_clp":5000,"price_usd":5.0,"price_source":"...","price_url":"https://...","notes":"",
  "image":"img/dark-magician-es.jpg"}
 ```
-Opcional: `"sold": true` oculta la carta del catálogo.
+Opcional: `"quantity": 2` para copias iguales (mismo código y edición; el sitio muestra "x2"); `"sold": true` oculta la carta. Las cartas en inglés usan el nombre en inglés salvo nombre oficial en español verificado.
 
 ## Precios
 Referenciales en CLP: primero mercado chileno; si no hay, internacional (TCGplayer/Cardmarket vía PriceCharting) convertido con el dólar observado del día. El estado se estima por foto.
