@@ -343,7 +343,7 @@
  },
  {
   "id": "wattkingdom-en",
-  "name_es": "Reino Watt",
+  "name_es": "Wattkingdom",
   "name_en": "Wattkingdom",
   "set_code": "AGOV-EN062",
   "set_name": "Age of Overlord",
@@ -357,12 +357,12 @@
   "price_usd": 0.11,
   "price_source": "Internacional (PriceCharting/TCGplayer, versión inglés equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
   "price_url": "https://www.pricecharting.com/game/yugioh-age-of-overlord/wattkingdom-agov-en062",
-  "notes": "Foto única, sin sleeve; esquinas/reverso no inspeccionables a detalle. Nombre en español aproximado/no oficial verificado.",
+  "notes": "Foto única, sin sleeve; esquinas/reverso no inspeccionables a detalle. Carta en inglés: se muestra el nombre en inglés (nombre oficial en español no verificado).",
   "image": "img/wattkingdom-en.jpg"
  },
  {
   "id": "sinful-spoils-rciela-en",
-  "name_es": "Botín Pecaminoso de la Perdición - Rciela",
+  "name_es": "Sinful Spoils of Doom - Rciela",
   "name_en": "Sinful Spoils of Doom - Rciela",
   "set_code": "AGOV-EN055",
   "set_name": "Age of Overlord",
@@ -376,7 +376,7 @@
   "price_usd": 0.29,
   "price_source": "Internacional (PriceCharting/TCGplayer, versión inglés equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
   "price_url": "https://www.pricecharting.com/game/yugioh-age-of-overlord/sinful-spoils-of-doom-rciela-agov-en055",
-  "notes": "Foto única, sin sleeve; esquinas/reverso no inspeccionables a detalle. Nombre en español aproximado/no oficial verificado.",
+  "notes": "Foto única, sin sleeve; esquinas/reverso no inspeccionables a detalle. Carta en inglés: se muestra el nombre en inglés (nombre oficial en español no verificado).",
   "image": "img/sinful-spoils-rciela-en.jpg"
  },
  {
@@ -419,7 +419,7 @@
  },
  {
   "id": "starring-knight-en",
-  "name_es": "Caballero Estelar",
+  "name_es": "Starring Knight",
   "name_en": "Starring Knight",
   "set_code": "AGOV-EN095",
   "set_name": "Age of Overlord",
@@ -433,7 +433,7 @@
   "price_usd": 0.4,
   "price_source": "Internacional (PriceCharting/TCGplayer, versión inglés equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
   "price_url": "https://www.pricecharting.com/game/yugioh-age-of-overlord/starring-knight-agov-en095",
-  "notes": "Foto única, sin sleeve; esquinas/reverso no inspeccionables a detalle. Nombre en español aproximado/no oficial verificado.",
+  "notes": "Foto única, sin sleeve; esquinas/reverso no inspeccionables a detalle. Carta en inglés: se muestra el nombre en inglés (nombre oficial en español no verificado).",
   "image": "img/starring-knight-en.jpg"
  },
  {
