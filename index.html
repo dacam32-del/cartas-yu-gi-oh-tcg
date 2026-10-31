@@ -54,4 +54,17 @@ $('#g').addEventListener('click',e=>{const el=e.target.closest('.c');if(!el)retu
 const row=(k,v)=>v?`<tr><td>${k}</td><td>${esc(v)}</td></tr>`:'';
 $('#mb').innerHTML=`<button class="x" onclick="$('#modal').classList.remove('on')">×</button><img src="${esc(c.image)}" alt=""><div><h2 style="margin:0 0 4px;color:var(--gold)">${esc(c.name_es)}</h2><div class="m">${esc(c.name_en)}</div><div class="p" style="font-size:1.5rem;margin:8px 0">${clp(c.price_clp)}</div><table>${row('Código',c.set_code)}${row('Set',c.set_name)}${row('Año',c.year)}${row('Idioma',c.language)}${row('Edición',c.edition)}${row('Rareza',c.rarity)}${row('Tipo',c.type)}${row('Estado',c.condition)}${row('Cantidad',c.quantity||1)}${row('Notas',c.notes)}</table><p class="m">Precio referencial · <a style="color:var(--gold)" target="_blank" href="${esc(c.price_url)}">fuente</a></p><a class="buy" target="_blank" href="${wa(c)}">💬 Comprar por WhatsApp</a></div>`;$('#modal').classList.add('on')});
 $('#modal').addEventListener('click',e=>{if(e.target.id=='modal')$('#modal').classList.remove('on')});
-</script></body></html>
+</script><!-- musica-vitrina --><div id="musica-credito" style="text-align:center;font-size:11px;opacity:.6;padding:8px 8px 70px">Música: "Five Armies" de Kevin MacLeod (<a href="https://incompetech.com" style="color:inherit">incompetech.com</a>), licencia <a href="https://creativecommons.org/licenses/by/4.0/" style="color:inherit">CC BY 4.0</a></div>
+<audio id="bgm" src="audio/musica.mp3" loop preload="auto"></audio>
+<button id="bgm-btn" aria-label="Música" title="Música" style="position:fixed;left:16px;bottom:16px;z-index:9999;width:44px;height:44px;border-radius:50%;border:2px solid #c9a227;background:#1a0f2e;color:#c9a227;font-size:20px;cursor:pointer;box-shadow:0 2px 8px rgba(0,0,0,.4);opacity:.9">🔇</button>
+<script>(function(){var a=document.getElementById('bgm'),b=document.getElementById('bgm-btn'),K='vitrina_musica_pausada';a.volume=0.35;
+function ui(){b.textContent=a.paused?'🔇':'🔊';}
+function go(){return a.play().then(ui).catch(function(){ui();});}
+function first(e){if(e&&e.target===b)return;rm();if(localStorage.getItem(K)!=='1'&&a.paused)go();}
+function rm(){['click','touchstart','keydown'].forEach(function(t){document.removeEventListener(t,first,true);});}
+b.addEventListener('click',function(){rm();if(a.paused){localStorage.removeItem(K);go();}else{a.pause();localStorage.setItem(K,'1');ui();}});
+a.addEventListener('play',ui);a.addEventListener('pause',ui);
+if(localStorage.getItem(K)!=='1'){a.play().then(ui).catch(function(){['click','touchstart','keydown'].forEach(function(t){document.addEventListener(t,first,true);});});}
+})();</script>
+<!-- /musica-vitrina -->
+</body></html>
