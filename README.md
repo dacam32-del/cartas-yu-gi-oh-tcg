@@ -2,6 +2,9 @@
 
 Catálogo web estático (GitHub Pages) de mis cartas Yu-Gi-Oh! con tasación, filtros, búsqueda y compra por WhatsApp.
 
+## 🛒 Tienda web
+**[https://dacam32-del.github.io/cartas-yu-gi-oh-tcg/](https://dacam32-del.github.io/cartas-yu-gi-oh-tcg/)**
+
 ## Estructura
 - `index.html` – la página (no requiere compilación).
 - `data/cards.json` – lista de cartas (un objeto por carta).
