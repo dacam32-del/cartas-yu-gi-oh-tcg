@@ -656,8 +656,9 @@
     "price_usd": 0.31,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/polymerization-ygld-enb30",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. Código leído como YGLD-ENB30 (borroso).",
-    "image": "img/polymerization-en.jpg"
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. Código leído como YGLD-ENB30 (borroso). VENDIDA (20-11-2026).",
+    "image": "img/polymerization-en.jpg",
+    "sold": true
   },
   {
     "id": "deseos-solemnes-es",
@@ -711,12 +712,12 @@
     "rarity": "Common",
     "type": "Magia Normal",
     "condition": "NM–LP estimado (en funda)",
-    "quantity": 3,
+    "quantity": 2,
     "price_clp": 290,
     "price_usd": 0.29,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/double-spell-ygld-enb23",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas. Cantidad 2 (mismo código/edición). Carta en inglés: se muestra el nombre en inglés. Copia adicional (sin funda) agregada en lote 9.",
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas. Cantidad 2 (mismo código/edición). Carta en inglés: se muestra el nombre en inglés. Copia adicional (sin funda) agregada en lote 9. 1 copia vendida (20-11-2026).",
     "image": "img/double-spell-en.jpg"
   },
   {
@@ -776,8 +777,9 @@
     "price_usd": 0.64,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/multiply-ygld-ena32",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. Código parcialmente legible (YGLD-ENA3?).",
-    "image": "img/multiply-en.jpg"
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. Código parcialmente legible (YGLD-ENA3?). VENDIDA (20-11-2026).",
+    "image": "img/multiply-en.jpg",
+    "sold": true
   },
   {
     "id": "swords-revealing-light-ygld-en",
@@ -791,12 +793,12 @@
     "rarity": "Common",
     "type": "Magia Normal",
     "condition": "NM–LP estimado (en funda)",
-    "quantity": 2,
+    "quantity": 1,
     "price_clp": 150,
     "price_usd": 0.15,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/swords-of-revealing-light-ygld-enc25",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas. Cantidad 2 (mismo código/edición). Carta en inglés: se muestra el nombre en inglés. 2ª copia (página 3) con código ilegible por brillo; se asume YGLD.",
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas. Cantidad 2 (mismo código/edición). Carta en inglés: se muestra el nombre en inglés. 2ª copia (página 3) con código ilegible por brillo; se asume YGLD. 1 copia vendida (20-11-2026).",
     "image": "img/swords-revealing-light-ygld-en.jpg"
   },
   {
@@ -851,12 +853,12 @@
     "rarity": "Common",
     "type": "Magia Normal",
     "condition": "NM–LP estimado (en funda)",
-    "quantity": 2,
+    "quantity": 1,
     "price_clp": 540,
     "price_usd": 0.55,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/card-of-sanctity-ygld-enc27",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. Código no legible (brillo); YGLD según copyright/arte. Copia adicional agregada en lote 6.",
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. Código no legible (brillo); YGLD según copyright/arte. Copia adicional agregada en lote 6. 1 copia vendida (20-11-2026).",
     "image": "img/card-of-sanctity-en.jpg"
   },
   {
@@ -876,8 +878,9 @@
     "price_usd": 0.36,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/marshmallon-ldk2-eny20",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/marshmallon-en.jpg"
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/marshmallon-en.jpg",
+    "sold": true
   },
   {
     "id": "symbols-of-duty-en",
@@ -1156,8 +1159,9 @@
     "price_usd": 0.26,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-egyptian-god-deck-slifer-the-sky-dragon/enemy-controller-1st-edition-egs1-en025",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/enemy-controller-en.jpg"
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/enemy-controller-en.jpg",
+    "sold": true
   },
   {
     "id": "foolish-burial-en",
@@ -1196,8 +1200,9 @@
     "price_usd": 0.26,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/search-products?q=pot+of+duality&type=prices",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. Código ilegible por brillo de la funda. Precio = reimpresión común más barata encontrada (YS17-EN028, US$0,26); si es DREV (2010) puede valer mucho más → revisar fuera de la funda.",
-    "image": "img/pot-of-duality-en.jpg"
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. Código ilegible por brillo de la funda. Precio = reimpresión común más barata encontrada (YS17-EN028, US$0,26); si es DREV (2010) puede valer mucho más → revisar fuera de la funda. VENDIDA (20-11-2026).",
+    "image": "img/pot-of-duality-en.jpg",
+    "sold": true
   },
   {
     "id": "mystical-space-typhoon-en",
@@ -1216,8 +1221,9 @@
     "price_usd": 0.46,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/mystical-space-typhoon-ldk2-enj32",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/mystical-space-typhoon-en.jpg"
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/mystical-space-typhoon-en.jpg",
+    "sold": true
   },
   {
     "id": "thousand-knives-en",
@@ -1236,8 +1242,9 @@
     "price_usd": 0.36,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar de la impresión indicada) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/thousand-knives-ldk2-eny27",
-    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/thousand-knives-en.jpg"
+    "notes": "En funda (sleeve) en carpeta: el brillo dificulta leer código/edición y evaluar esquinas.  Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/thousand-knives-en.jpg",
+    "sold": true
   },
   {
     "id": "inferno-fire-blast-en",
@@ -1671,12 +1678,12 @@
     "rarity": "Common",
     "type": "Monstruo Normal (Guerrero/LUZ, Nv5)",
     "condition": "NM–LP estimado (en funda)",
-    "quantity": 3,
+    "quantity": 2,
     "price_clp": 630,
     "price_usd": 0.64,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/jacks-knight-1st-edition-ygld-enc13",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Cantidad 2 (mismo código/edición). Carta en inglés: se muestra el nombre en inglés. Existen YGLD-ENB06 y ENC13; código exacto no legible en ambas copias. Precio de referencia: única ficha disponible (ENC13 1ª Ed.). Copia adicional agregada en lote 7.",
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Cantidad 2 (mismo código/edición). Carta en inglés: se muestra el nombre en inglés. Existen YGLD-ENB06 y ENC13; código exacto no legible en ambas copias. Precio de referencia: única ficha disponible (ENC13 1ª Ed.). Copia adicional agregada en lote 7. 1 copia vendida (20-11-2026).",
     "image": "img/jacks-knight-en.jpg"
   },
   {
@@ -1971,12 +1978,12 @@
     "rarity": "Common",
     "type": "Monstruo de Efecto (Guerrero/TIERRA, Nv4)",
     "condition": "NM–LP estimado (en funda)",
-    "quantity": 2,
+    "quantity": 1,
     "price_clp": 280,
     "price_usd": 0.28,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/big-shield-gardna-ldk2-eny16",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Cantidad 2 (mismo código/edición). Carta en inglés: se muestra el nombre en inglés.",
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Cantidad 2 (mismo código/edición). Carta en inglés: se muestra el nombre en inglés. 1 copia vendida (20-11-2026).",
     "image": "img/big-shield-gardna-en.jpg"
   },
   {
@@ -2276,8 +2283,9 @@
     "price_usd": 0.66,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/summoned-skull-ygld-ena06",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. Código no legible (brillo); se asume YGLD.",
-    "image": "img/summoned-skull-ygld-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. Código no legible (brillo); se asume YGLD. VENDIDA (20-11-2026).",
+    "image": "img/summoned-skull-ygld-en.jpg",
+    "sold": true
   },
   {
     "id": "prank-kids-battle-butler-mged-en",
@@ -2476,8 +2484,9 @@
     "price_usd": 0.32,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/magicians-valkyria-1st-edition-ldk2-eny17",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. Precio de referencia 1ª Ed. (sin ficha Ilimitada).",
-    "image": "img/magicians-valkyria-ldk2-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. Precio de referencia 1ª Ed. (sin ficha Ilimitada). VENDIDA (20-11-2026).",
+    "image": "img/magicians-valkyria-ldk2-en.jpg",
+    "sold": true
   },
   {
     "id": "red-eyes-archfiend-of-lightning-ldk2-en",
@@ -2836,8 +2845,9 @@
     "price_usd": 0.29,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/chimera-the-flying-mythical-beast-ygld-enb41",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/chimera-the-flying-mythical-beast-ygld-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/chimera-the-flying-mythical-beast-ygld-en.jpg",
+    "sold": true
   },
   {
     "id": "buzzsaw-shark-mp21-en",
@@ -3136,8 +3146,9 @@
     "price_usd": 0.1,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/cloning-ldk2-enk36",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/cloning-ldk2-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/cloning-ldk2-en.jpg",
+    "sold": true
   },
   {
     "id": "fusion-reserve-ldk2-en",
@@ -3256,8 +3267,9 @@
     "price_usd": 0.44,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/magic-cylinder-ldk2-eny37",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/magic-cylinder-ldk2-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/magic-cylinder-ldk2-en.jpg",
+    "sold": true
   },
   {
     "id": "stronghold-the-moving-fortress-ygld-en",
@@ -3396,8 +3408,9 @@
     "price_usd": 0.18,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/chain-destruction-ygld-enb38",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. ⚠ El bolsillo parece contener más copias apiladas (borde grueso); solo se cuenta la visible.",
-    "image": "img/chain-destruction-ygld-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. ⚠ El bolsillo parece contener más copias apiladas (borde grueso); solo se cuenta la visible. VENDIDA (20-11-2026).",
+    "image": "img/chain-destruction-ygld-en.jpg",
+    "sold": true
   },
   {
     "id": "jar-of-avarice-ldk2-en",
@@ -3436,8 +3449,9 @@
     "price_usd": 0.25,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/catapult-turtle-ygld-ena08",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/catapult-turtle-ygld-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/catapult-turtle-ygld-en.jpg",
+    "sold": true
   },
   {
     "id": "burst-breath-ldk2-en",
@@ -3496,8 +3510,9 @@
     "price_usd": 0.41,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/kings-knight-1st-edition-ygld-enc15",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. Precio de referencia 1ª Ed. (sin ficha Ilimitada).",
-    "image": "img/kings-knight-ygld-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. Precio de referencia 1ª Ed. (sin ficha Ilimitada). VENDIDA (20-11-2026).",
+    "image": "img/kings-knight-ygld-en.jpg",
+    "sold": true
   },
   {
     "id": "horn-of-olifant-mp21-en",
@@ -3656,8 +3671,9 @@
     "price_usd": 0.11,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/shadow-spell-ldk2-enk35",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/shadow-spell-ldk2-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/shadow-spell-ldk2-en.jpg",
+    "sold": true
   },
   {
     "id": "metal-reflect-slime-egs1-en",
@@ -3736,8 +3752,9 @@
     "price_usd": 0.11,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/ancient-lamp-ldk2-enk14",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. ⚠ El bolsillo parece contener más copias apiladas (borde grueso); solo se cuenta la visible.",
-    "image": "img/ancient-lamp-ldk2-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. ⚠ El bolsillo parece contener más copias apiladas (borde grueso); solo se cuenta la visible. VENDIDA (20-11-2026).",
+    "image": "img/ancient-lamp-ldk2-en.jpg",
+    "sold": true
   },
   {
     "id": "manzanas-doradas-es",
@@ -4596,8 +4613,9 @@
     "price_usd": 2.27,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar, versión EN equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-egyptian-god-deck-slifer-the-sky-dragon/mirror-force-egs1-en034",
-    "notes": "Sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle.",
-    "image": "img/fuerza-de-espejo-es.jpg"
+    "notes": "Sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle. VENDIDA (20-11-2026).",
+    "image": "img/fuerza-de-espejo-es.jpg",
+    "sold": true
   },
   {
     "id": "makami-cacharrek-es",
@@ -4936,8 +4954,9 @@
     "price_usd": 0.49,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar, versión EN equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-egyptian-god-deck-obelisk-the-tormentor/brain-control-ego1-en023",
-    "notes": "Sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle.",
-    "image": "img/control-cerebral-es.jpg"
+    "notes": "Sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle. VENDIDA (20-11-2026).",
+    "image": "img/control-cerebral-es.jpg",
+    "sold": true
   },
   {
     "id": "huracan-ojama-delta-es",
@@ -5056,8 +5075,9 @@
     "price_usd": 1.35,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar, versión EN equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-egyptian-god-deck-slifer-the-sky-dragon/electromagnetic-turtle-egs1-en013",
-    "notes": "Sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle.",
-    "image": "img/tortuga-electromagnetica-es.jpg"
+    "notes": "Sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle. VENDIDA (20-11-2026).",
+    "image": "img/tortuga-electromagnetica-es.jpg",
+    "sold": true
   },
   {
     "id": "codigo-seguridad-un-solo-uso-es",
@@ -5456,8 +5476,9 @@
     "price_usd": 1.22,
     "price_source": "Internacional (PriceCharting, reimpresión 25.º Aniversario EN equivalente, misma rareza) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-invasion-of-chaos-25th-anniversary/drillago-ioc-en026",
-    "notes": "Foil; sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle. Reimpresión española ©2020 = Invasion of Chaos 25th Anniversary Edition (2023); precio de la reimpresión 25.º Aniversario EN equivalente.",
-    "image": "img/drillago-es.jpg"
+    "notes": "Foil; sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle. Reimpresión española ©2020 = Invasion of Chaos 25th Anniversary Edition (2023); precio de la reimpresión 25.º Aniversario EN equivalente. VENDIDA (20-11-2026).",
+    "image": "img/drillago-es.jpg",
+    "sold": true
   },
   {
     "id": "getsu-fuhma-es",
@@ -5916,8 +5937,9 @@
     "price_usd": 0.21,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar, versión EN equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-egyptian-god-deck-obelisk-the-tormentor/cyber-dragon-ego1-en009",
-    "notes": "Sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle.",
-    "image": "img/ciber-dragon-es.jpg"
+    "notes": "Sin funda sobre tapete; foto única, esquinas no inspeccionables a detalle. VENDIDA (20-11-2026).",
+    "image": "img/ciber-dragon-es.jpg",
+    "sold": true
   },
   {
     "id": "dragon-armado-endurecido-es",
