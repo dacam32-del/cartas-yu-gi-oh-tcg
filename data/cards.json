@@ -15,9 +15,10 @@
     "price_usd": 0.28,
     "price_source": "Internacional (PriceCharting/TCGplayer, versión inglés equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/monster-reborn-ygld-enb16",
-    "notes": "Foto única, sin sleeve sobre tela; esquinas/reverso no inspeccionables a detalle.",
+    "notes": "Foto única, sin sleeve sobre tela; esquinas/reverso no inspeccionables a detalle. VENDIDA (20-11-2026).",
     "image": "img/monster-reborn-en.jpg",
-    "quantity": 1
+    "quantity": 1,
+    "sold": true
   },
   {
     "id": "monstruo-renacido-es",
@@ -35,9 +36,10 @@
     "price_usd": 0.52,
     "price_source": "Internacional (PriceCharting/TCGplayer, versión inglés equivalente) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-egyptian-god-deck-obelisk-the-tormentor/monster-reborn-ego1-en024",
-    "notes": "Foto única, sin sleeve sobre tela; esquinas/reverso no inspeccionables a detalle.",
+    "notes": "Foto única, sin sleeve sobre tela; esquinas/reverso no inspeccionables a detalle. VENDIDA (20-11-2026).",
     "image": "img/monstruo-renacido-es.jpg",
-    "quantity": 1
+    "quantity": 1,
+    "sold": true
   },
   {
     "id": "slifer-es",
@@ -1743,8 +1745,9 @@
     "price_usd": 0.69,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-yugi%27s-legendary-decks/queens-knight-1st-edition-ygld-enc14",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. Precio de referencia: 1ª Ed. (no hay ficha Ilimitada).",
-    "image": "img/queens-knight-enc14-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. Precio de referencia: 1ª Ed. (no hay ficha Ilimitada). VENDIDA (20-11-2026).",
+    "image": "img/queens-knight-enc14-en.jpg",
+    "sold": true
   },
   {
     "id": "right-leg-forbidden-en",
@@ -1903,8 +1906,9 @@
     "price_usd": 0.11,
     "price_source": "Internacional (PriceCharting, valor de mercado sin graduar) – sin precio local Chile; USD×984,09 (dólar observado 16-10-2026)",
     "price_url": "https://www.pricecharting.com/game/yugioh-legendary-decks-ii/la-jinn-the-mystical-genie-of-the-lamp-ldk2-enk10",
-    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés.",
-    "image": "img/la-jinn-en.jpg"
+    "notes": "En funda (sleeve): el brillo dificulta leer código/edición y evaluar esquinas. Carta en inglés: se muestra el nombre en inglés. VENDIDA (20-11-2026).",
+    "image": "img/la-jinn-en.jpg",
+    "sold": true
   },
   {
     "id": "dark-magician-girl-led6-en",
